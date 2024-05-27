@@ -1,0 +1,45 @@
+body{
+    background-color: #AFB4FF;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table td{
+    border: 3px solid gray;
+    width: 100px;
+    height: 100px;
+}
+.mainheading{
+    font-size: 25px;
+    margin-top: 40px;
+}
+.maintable{
+    margin-top: 40px;
+}
+.turnheading{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.userclick{
+    font-size:35px;
+}
+.restartbutton{
+    margin-top: 25px;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 0px 24px;
+    display: flex;
+    align-items: center;
+    height: 56px;
+    background: rgb(249, 249, 249);
+    border: none;
+    letter-spacing: 1.8px;
+    cursor: pointer;
+}
+.winnermsg{
+    letter-spacing: 1.8px;
+    font-size: 20px;
+}
